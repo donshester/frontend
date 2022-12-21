@@ -1,0 +1,7 @@
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+    background-color: #f9f9f9;
+}

@@ -1,0 +1,8 @@
+.header {
+    display: flex;
+}
+
+.searchControl {
+    max-width: 500px;
+    margin-left: auto;
+}
