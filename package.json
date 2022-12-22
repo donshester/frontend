@@ -16,7 +16,10 @@
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
+  "proxy": "http://localhost:3001",
   "scripts": {
+    "format": "prettier --write \"src/**/*.js\"",
+    "lint": "eslint \"src/**/*.js\" --fix",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

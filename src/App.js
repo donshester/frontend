@@ -15,11 +15,13 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<DashboardPage />} />
+
           <Route path="/departments" element={<DepartmentsPage />} />
           <Route
             path="/departments/:departmentId"
             element={<DepartmentDetailsPage />}
           />
+
           <Route path="/employees" element={<EmployeesPage />} />
           <Route
             path="/employees/:employeeId"
